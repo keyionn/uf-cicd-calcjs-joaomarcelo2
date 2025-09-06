@@ -9,10 +9,28 @@ function multiply(a, b) {
         return a * b;
     }
 
+
+
+
+
+
+
+
+
+
+
+function power(base, exponent) {
+        return Math.pow(base, exponent);
+    }
+
+
+
+
 // Exportar as funções
 
 module.exports = {
     add,
     subtract,
-    multiply
+    multiply,
+    power
 };
